@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+
+<table border align="center" width="1000">
+
+    <tr> 
+        <th>Prioridade</th>
+        <th>ID</th>
+        <th>Descrição</th>
+    </tr>
+
+    <!-- As colunas abaixo são referentes a parte aluno-->
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF001]</td>
+        <td>Manter cadastro do aluno com nome, matrícula, período e curso informados.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF002]</td>
+        <td> O 1º período deverá ser padrão. Caso o aluno esteja em um período diferente o usuário deverá informar o período referente.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF003]</td>
+        <td>Atribuir valores para todas as características do aluno.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF004]</td>
+        <td>Obter os valores das características do aluno.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF005]</td>
+        <td>Exibir os dados do aluno anteriormente cadastrados (nome, matrícula, período e curso).</td>     
+    </tr>
+
+    <!-- As colunas abaixo são referentes a parte professor-->
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF006]</td>
+        <td>Manter cadastro do professor com nome e número do suap informados.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF007]</td>
+        <td>Atribuir valores para todas as características do professor.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF008]</td>
+        <td>Obter os valores das características do professor.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF009]</td>
+        <td>Exibir os dados do professor anteriormente cadastrados (nome e número suap).</td>     
+    </tr>
+
+    <!-- As colunas abaixo são referentes a parte disciplina-->
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF010]</td>
+        <td>Cadastrar o nome da disciplina, período em que a disciplina é ofertada, número de aulas na semana, 
+            número total de aulas da disciplina e informar o nome do professor que ministra a disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF011]</td>
+        <td>Caso não houver um professor ministrante, manter cadastro da disciplina com nome da disciplina, período em que a disciplina é ofertada, número de aulas na semana, 
+            número total de aulas da disciplina e informar que não há um professor ministrando a disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF012]</td>
+        <td>Permitir matricular um aluno na disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF013]</td>
+        <td>Quando matriculado, deve-se registrar ao aluno um valor em notas e em frequências iguais a zero.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF014]</td>
+        <td>Exibir se o aluno foi matriculado ou não.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF015]</td>
+        <td>Não permitir a matrícula de alunos com o mesmo valor de RA.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF016]</td>
+        <td>Manter registrado os alunos matriculados na disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF017]</td>
+        <td>Manter registrada as notas de todos os alunos matriculados na disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF018]</td>
+        <td>Manter registrada a frequência de todos os alunos matriculados na disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF019]</td>
+        <td>Remover um aluno da disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF020]</td>
+        <td>Quando desmatriculado, deve-se também remover a nota do aluno da lista de notas e sua frequência da lista de frequência.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF021]</td>
+        <td>Exibir se o aluno foi desmatriculado ou não.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF022]</td>
+        <td>Alocar à disciplina a um professor.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF023]</td>
+        <td>Remover um professor da disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF024]</td>
+        <td>Retornar o número de alunos matriculados na disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF025]</td>
+        <td>Mostrar ao aluno sua nota na disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF026]</td>
+        <td>Mostrar ao aluno sua frequência na disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF027]</td>
+        <td>Indicar se aluno está aprovado ou reprovado na disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF028]</td>
+        <td>Um aluno é aprovado se sua nota for maior ou igual a 6 e se sua frequência for maior ou igual a 75%.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF029]</td>
+        <td>Exibir o nome de todos os alunos aprovados na disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Importante</td> 
+        <td align="center">[RF030]</td>
+        <td>Exibir a quantidade de alunos aprovados.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Importante</td> 
+        <td align="center">[RF031]</td>
+        <td>Quando não houver alunos aprovados deverá aparecer a frase “Não há alunos aprovados”.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF032]</td>
+        <td>Exibir o nome de todos os alunos reprovados na disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Importante</td> 
+        <td align="center">[RF033]</td>
+        <td>Exibir a quantidade de alunos reprovados.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Importante</td> 
+        <td align="center">[RF034]</td>
+        <td>Quando não houver alunos reprovados deverá aparecer a frase “Não há alunos reprovados”.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Importante</td> 
+        <td align="center">[RF035]</td>
+        <td>Quando não houver alunos matriculados na disciplina deverá aparecer a frase “Disciplina não possui alunos matriculados".</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF036]</td>
+        <td>Mostrar informações sobre o professor ministrante da disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Desejável</td> 
+        <td align="center">[RF037]</td>
+        <td>Mostrar informações do aluno com a menor nota da disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Desejável</td> 
+        <td align="center">[RF038]</td>
+        <td>Mostrar informações do aluno com a maior nota da disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Importante</td> 
+        <td align="center">[RF039]</td>
+        <td>Exibir o aproveitamento do aluno de acordo com sua frequência.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF040]</td>
+        <td>Exibir a posição do aluno na lista referente às notas.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Importante</td> 
+        <td align="center">[RF041]</td>
+        <td>Exibir todos os alunos acima da média da turma na disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Importante</td> 
+        <td align="center">[RF042]</td>
+        <td>Exibir todos os alunos abaixo da média da turma na disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF043]</td>
+        <td>Mostrar apenas o nome dos alunos, suas respectivas notas e frequência na disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF044]</td>
+        <td>Desmatricular todos os aluno da disciplina quando necessário.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF045]</td>
+        <td>Exibir apenas o nome dos aluno juntamente com suas respectivas notas de forma decrescente, isto é, o aluno com a maior nota deverá ser o primeiro a ser exibido, seguido do aluno com a segunda maior nota e assim até o aluno com a menor nota.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF046]</td>
+        <td>Exibir todas as informações da disciplina. Deverá ser exibido as informações do professor e dos alunos, a nota e a frequência de cada aluno na disciplina. Imprimir a média total da turma e a quantidade de alunos reprovados e aprovados.</td>     
+    </tr>
+
+    <!-- As colunas abaixo são referentes a parte main-->
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF047]</td>
+        <td>Desenvolver um quadro de opções na tela inicial onde a opção 1 apresenta informações da disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF048]</td>
+        <td>Desenvolver um quadro de opções na tela inicial onde a opção 2 apresenta o número de alunos cursando a disciplina juntamente com o número de alunos reprovados e aprovados.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF049]</td>
+        <td>Desenvolver um quadro de opções na tela inicial onde a opção 3 apresenta os alunos aprovados.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF050]</td>
+        <td>Desenvolver um quadro de opções na tela inicial onde a opção 4 apresenta os alunos reprovados.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF051]</td>
+        <td>Desenvolver um quadro de opções na tela inicial onde a opção 5 apresenta o aluno com a maior e menor nota na disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF052]</td>
+        <td>Desenvolver um quadro de opções na tela inicial onde a opção 6 apresenta o professor ministrante da disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF053]</td>
+        <td>Desenvolver um quadro de opções na tela inicial onde a opção 7 apresenta a média total da turma e listar todos os alunos acima da média.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF054]</td>
+        <td>Desenvolver um quadro de opções na tela inicial onde a opção 8 apresenta a média total da turma e listar todos os alunos abaixo da média.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF055]</td>
+        <td>Desenvolver um quadro de opções na tela inicial onde a opção 9 apresenta o nome do alunos com sua respectiva nota e frequência.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF056]</td>
+        <td>Desenvolver um quadro de opções na tela inicial onde a opção 10 apresenta os alunos ordenados por nota.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF057]</td>
+        <td>Desenvolver um quadro de opções na tela inicial onde a opção 11 matricula um aluno na disciplina.</td>     
+    </tr>
+
+    <tr> 
+        <td align="center">Essencial</td> 
+        <td align="center">[RF058]</td>
+        <td>Desenvolver um quadro de opções na tela inicial onde a opção 0 desmatricula um aluno na disciplina.</td>     
+    </tr>
